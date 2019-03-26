@@ -1,5 +1,8 @@
 # frozen-string-literal: true
 
+require_relative "trace/hit"
+require_relative "trace/log"
+
 #
 class Roda
   module RodaPlugins
@@ -13,9 +16,6 @@ class Roda
       end
 
       def self.load_dependencies(app, _opts={}) # :nodoc:
-        require_relative "trace/hit"
-        require_relative "trace/log"
-
         app.plugin :match_hook
       end
 
