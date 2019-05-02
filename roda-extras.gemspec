@@ -11,5 +11,4 @@ Gem::Specification.new do |spec|
   spec.files = ["README.md"] + Dir["lib/**/*.rb"]
 
   spec.add_dependency "roda", ">= 3.19"
-  spec.add_development_dependency "minitest"
 end
