@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    roda-extras (0.1.0)
+      roda (>= 3.19)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.11.3)
+    rack (2.0.7)
+    roda (3.19.0)
+      rack
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest
+  roda-extras!
+
+BUNDLED WITH
+   1.17.2
